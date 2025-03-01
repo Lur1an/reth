@@ -53,3 +53,14 @@ rustc-ice-*
 
 # Book sources should be able to build with the latest version
 book/sources/Cargo.lock
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+.aider*
